@@ -1,9 +1,11 @@
 package com.example.restaurante.domain.notification;
 
 import com.example.restaurante.domain.modelo.Cliente;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary // fornece uma prioridade maior para ele, em relação ao outro bean
 public class NotificadorEmail implements Notificador {
 
     @Override

@@ -4,6 +4,7 @@ import com.example.restaurante.domain.modelo.Cliente;
 import org.springframework.stereotype.Component;
 
 @Component
+// @Primary
 public class NotificadorSMS implements Notificador {
 
     @Override
