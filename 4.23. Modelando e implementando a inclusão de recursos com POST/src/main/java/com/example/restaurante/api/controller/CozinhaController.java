@@ -40,4 +40,14 @@ public class CozinhaController {
 
        	return ResponseEntity.notFound().build();
     }
+
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public Cozinha adicionar(@RequestBody Cozinha cozinha){ // isso quer dizer que o parametro cozinha, vai receber o corpo da requisição
+
+        // Cozinha addCozinha = cozinhaRepository.salvar(cozinha);
+        // ResponseEntity.status(HttpStatus.CREATED).body(addCozinha);
+        return cozinhaRepository.salvar(cozinha);
+
+    }
 }
