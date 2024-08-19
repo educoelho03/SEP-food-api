@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cccf7414-bd73-44c8-9a21-72e73e9a6827" name="Changes" comment="implementando pathVariable no metodo buscar" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2i6bPxVxxpJ49D2GLENC1xy8saA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ecoelho/JavaProjects/SEP-food-api/4.24. Negociando o media type do payload do POST com Content-Type",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.restaurante.jpa" />
+      <recent name="com.example.restaurante.domain.notification" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RestauranteApplication">
+    <configuration name="AlteracaoRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.restaurante.jpa.restaurante.AlteracaoRestauranteMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.restaurante.jpa.restaurante.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuscarRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.restaurante.jpa.restaurante.BuscarRestauranteMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.restaurante.jpa.restaurante.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InclusaoCozinhaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.restaurante.jpa.cozinha.InclusaoCozinhaMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.restaurante.jpa.cozinha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InclusaoRestauranteMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.restaurante.jpa.restaurante.InclusaoRestauranteMain" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.restaurante.jpa.restaurante.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestauranteApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.restaurante.RestauranteApplication" />
+      <module name="algafood-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.restaurante.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="2.15. Dependência opcional com @Autowired" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="2.15. Dependência opcional com @Autowired" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RestauranteApplication" />
+        <item itemvalue="Application.InclusaoRestauranteMain" />
+        <item itemvalue="Application.InclusaoCozinhaMain" />
+        <item itemvalue="Application.AlteracaoRestauranteMain" />
+        <item itemvalue="Application.BuscarRestauranteMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cccf7414-bd73-44c8-9a21-72e73e9a6827" name="Changes" comment="" />
+      <created>1718813953704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718813953704</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Resolvendo problema de ambiguidade dos Beans, atribuindo uma Lista no atributo">
+      <option name="closed" value="true" />
+      <created>1718816487015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718816487015</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Resolvendo problema de ambiguidade dos Beans, atribuindo uma Lista no atributo">
+      <option name="closed" value="true" />
+      <created>1718816559420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718816559420</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Resolvendo problema de ambiguidade dos Beans, criando uma anotação personalizada usando ENUM e interface">
+      <option name="closed" value="true" />
+      <created>1718819984657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718819984657</updated>
+    </task>
+    <task id="LOCAL-00004" summary=".">
+      <option name="closed" value="true" />
+      <created>1718821525802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718821525802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adicionando eventos customizados e consumindo esses eventos">
+      <option name="closed" value="true" />
+      <created>1718975022137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718975022137</updated>
+    </task>
+    <task id="LOCAL-00006" summary="usando o application.properties">
+      <option name="closed" value="true" />
+      <created>1718975491800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718975491800</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".">
+      <option name="closed" value="true" />
+      <created>1718980052879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718980052879</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add spring jpa">
+      <option name="closed" value="true" />
+      <created>1720797851272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720797851272</updated>
+    </task>
+    <task id="LOCAL-00009" summary="implementando repository">
+      <option name="closed" value="true" />
+      <created>1721053638046</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721053638046</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adicionando a anotação JoinColumn">
+      <option name="closed" value="true" />
+      <created>1722868045198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722868045198</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adicionando restrição para valores nulos">
+      <option name="closed" value="true" />
+      <created>1722868247633</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722868247633</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adicionando novos mapeamentos">
+      <option name="closed" value="true" />
+      <created>1722869945113</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722869945113</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implementando pathVariable no metodo buscar">
+      <option name="closed" value="true" />
+      <created>1723818887432</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723818887432</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Resolvendo problema de ambiguidade dos Beans, atribuindo uma Lista no atributo" />
+    <MESSAGE value="Resolvendo problema de ambiguidade dos Beans, criando uma anotação personalizada usando ENUM e interface" />
+    <MESSAGE value="adicionando eventos customizados e consumindo esses eventos" />
+    <MESSAGE value="usando o application.properties" />
+    <MESSAGE value="." />
+    <MESSAGE value="add spring jpa" />
+    <MESSAGE value="implementando repository" />
+    <MESSAGE value="adicionando a anotação JoinColumn" />
+    <MESSAGE value="adicionando restrição para valores nulos" />
+    <MESSAGE value="adicionando novos mapeamentos" />
+    <MESSAGE value="implementando pathVariable no metodo buscar" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando pathVariable no metodo buscar" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/3_4__Mapeando_entidades_com_JPA$RestauranteApplication.ic" NAME="RestauranteApplication Coverage Results" MODIFIED="1720805533180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.restaurante.*</FILTER>
+    </SUITE>
+  </component>
+</project>
