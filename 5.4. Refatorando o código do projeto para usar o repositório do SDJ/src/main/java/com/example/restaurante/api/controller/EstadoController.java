@@ -12,6 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/estados")
@@ -21,19 +22,19 @@ public class EstadoController {
     private EstadoRepository estadoRepository;
 
     @Autowired
-    private CadastroEstadoService cadastroEstado;
+    private CadastroEstadoService estadoService;
 
     @GetMapping
     public List<Estado> listar() {
-        return estadoRepository.listar();
+        return estadoRepository.findAll();
     }
 
     @GetMapping("/{estadoId}")
     public ResponseEntity<Estado> buscar(@PathVariable Long estadoId) {
-        Estado estado = estadoRepository.buscar(estadoId);
+        Optional<Estado> estado = estadoRepository.findById(estadoId);
 
-        if (estado != null) {
-            return ResponseEntity.ok(estado);
+        if (estado.isPresent()) {
+            return ResponseEntity.ok(estado.get());
         }
 
         return ResponseEntity.notFound().build();
@@ -42,18 +43,17 @@ public class EstadoController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Estado adicionar(@RequestBody Estado estado) {
-        return cadastroEstado.salvar(estado);
+        return estadoService.salvar(estado);
     }
 
     @PutMapping("/{estadoId}")
-    public ResponseEntity<Estado> atualizar(@PathVariable Long estadoId,
-                                            @RequestBody Estado estado) {
-        Estado estadoAtual = estadoRepository.buscar(estadoId);
+    public ResponseEntity<Estado> atualizar(@PathVariable Long estadoId, @RequestBody Estado estado) {
+        Estado estadoAtual = estadoRepository.findById(estadoId).orElse(null);
 
         if (estadoAtual != null) {
             BeanUtils.copyProperties(estado, estadoAtual, "id");
 
-            estadoAtual = cadastroEstado.salvar(estadoAtual);
+            estadoAtual = estadoService.salvar(estadoAtual);
             return ResponseEntity.ok(estadoAtual);
         }
 
@@ -63,7 +63,7 @@ public class EstadoController {
     @DeleteMapping("/{estadoId}")
     public ResponseEntity<?> remover(@PathVariable Long estadoId) {
         try {
-            cadastroEstado.excluir(estadoId);
+            estadoService.excluir(estadoId);
             return ResponseEntity.noContent().build();
 
         } catch (EntidadeNaoEncontradaException e) {
