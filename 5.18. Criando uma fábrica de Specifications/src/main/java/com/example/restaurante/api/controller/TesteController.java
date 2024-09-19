@@ -4,6 +4,8 @@ import com.example.restaurante.domain.model.Cozinha;
 import com.example.restaurante.domain.model.Restaurante;
 import com.example.restaurante.domain.repository.CozinhaRepository;
 import com.example.restaurante.domain.repository.RestauranteRepository;
+import com.example.restaurante.infrastructure.repository.spec.RestauranteComFreteGratisSpec;
+import com.example.restaurante.infrastructure.repository.spec.RestauranteComNomeSemelhanteSpec;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
